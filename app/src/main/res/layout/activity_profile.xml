@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:orientation="vertical"
-  tools:context=".ProfileActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
 
   <TextView
     android:id="@+id/tvUserEmail"
@@ -18,5 +17,13 @@
     android:id="@+id/btnLogout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="Sign out" />
+    android:text="Sign Out"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="72dp"
+      android:text="@string/this_will_do_something_i_hope"
+      android:textSize="29sp" />
 </LinearLayout>

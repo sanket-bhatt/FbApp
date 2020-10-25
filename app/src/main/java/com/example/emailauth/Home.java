@@ -1,4 +1,4 @@
-package com.codingdemos.fbapp;
+package com.example.emailauth;
 
 import android.app.Application;
 import android.content.Intent;
